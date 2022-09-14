@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "target": "es2020",
+    "baseUrl": ".",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false,
+      "dynamicImport": false
+    },
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "module": {
+    "type": "es6"
+  },
+  "sourceMaps": true,
+  "isModule": true
+}
