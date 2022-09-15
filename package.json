@@ -16,7 +16,7 @@
     "postbuild": "node ./scripts/postbuild.js",
     "test": "jest",
     "pree2e": "yarn build",
-    "e2e": "jest -c jest-e2e.config.js",
+    "e2e": "echo 'todo'",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "lint:fix": "yarn lint --fix",
     "format": "prettier --write .",
