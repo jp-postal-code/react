@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/jp-postal-code/react/compare/react-v0.1.0...react-v0.1.1) (2022-09-15)
+
+
+### Bug Fixes
+
+* publish の対象からテストを除外 ([#9](https://github.com/jp-postal-code/react/issues/9)) ([706cb29](https://github.com/jp-postal-code/react/commit/706cb29bb48324b0cbdbe5033e44ec2622a9e0c9))
+
 ## 0.1.0 (2022-09-15)
 
 
