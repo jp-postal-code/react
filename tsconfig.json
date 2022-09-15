@@ -15,10 +15,5 @@
     "esModuleInterop": true,
     "incremental": true
   },
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    }
-  ],
   "exclude": ["node_modules", "tmp"]
 }

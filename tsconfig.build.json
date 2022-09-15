@@ -7,5 +7,5 @@
     "declaration": true,
     "incremental": false
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/index.ts", "src/lib/*.ts"]
 }
