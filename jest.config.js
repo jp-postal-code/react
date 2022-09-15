@@ -4,7 +4,8 @@
  */
 
 /** @type {import('jest').Config} */
-module.exports = {
+export default {
+  setupFiles: ['<rootDir>/jest.setup.js'],
   testPathIgnorePatterns: ['/__e2e__/'],
   watchPathIgnorePatterns: ['/dist/'],
   clearMocks: true,
@@ -13,5 +14,9 @@ module.exports = {
   coverageProvider: 'v8',
   transform: {
     '^.+\\.(t|j)sx?$': ['@swc/jest'],
+  },
+  testEnvironment: 'jsdom',
+  moduleNameMapper: {
+    '^(.+)\\.jsx?$': '$1',
   },
 };
