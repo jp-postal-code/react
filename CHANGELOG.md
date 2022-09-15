@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/jp-postal-code/react/compare/react-v0.1.1...react-v0.1.2) (2022-09-15)
+
+
+### Bug Fixes
+
+* `Address` を export するように修正 ([#14](https://github.com/jp-postal-code/react/issues/14)) ([ab43349](https://github.com/jp-postal-code/react/commit/ab433490def866a04e46b7cee258251d8e7e5b8f))
+
 ## [0.1.1](https://github.com/jp-postal-code/react/compare/react-v0.1.0...react-v0.1.1) (2022-09-15)
 
 
