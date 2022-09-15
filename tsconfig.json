@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "moduleResolution": "NodeNext",
+    "target": "es2022",
+    "module": "ESNext",
+    "noEmit": true,
+    "strict": true,
+    "jsx": "preserve",
+    "lib": ["es2020", "DOM"],
+    "types": ["node"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "incremental": true
+  },
+  "references": [
+    {
+      "path": "./tsconfig.build.json"
+    }
+  ],
+  "exclude": ["node_modules", "tmp"]
+}
