@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/jp-postal-code/react/compare/react-v0.1.2...react-v0.1.3) (2023-05-31)
+
+
+### Bug Fixes
+
+* peerDependencies の設定ミスを修正 ([#40](https://github.com/jp-postal-code/react/issues/40)) ([7efd266](https://github.com/jp-postal-code/react/commit/7efd266f23fe91a04c429114b6680a6f206540ca))
+
 ## [0.1.2](https://github.com/jp-postal-code/react/compare/react-v0.1.1...react-v0.1.2) (2022-09-15)
 
 
