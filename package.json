@@ -1,7 +1,7 @@
 {
   "name": "@jp-postal-code/react",
   "description": "JP Postal Code API for React",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": "git@github.com:jp-postal-code/react.git",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
